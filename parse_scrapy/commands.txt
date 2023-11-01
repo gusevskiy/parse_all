@@ -1,0 +1,11 @@
+# создать проект scrapy
+scrapy startproject <name_of_project>
+
+# перейти в папку проекта
+cd <name_of_project>
+
+# создать паука в папке spiders
+
+# scrapy shell
+получить ссылку из тега li с classом в дочернем теге а
+response.css('li.menu-item-209 a::attr(href)').get()
